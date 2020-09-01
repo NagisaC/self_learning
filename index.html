@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="ja">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta charset=utf-8" />
+  <title>受付事務支援システム</title>
+
+  <!-- CSS -->
+  <link href="CSS/common.css" rel="stylesheet">
+
+  <script src="http://code.jquery.com/jquery.min.js"></script>
+  <script src="JS/common.js"></script>
+
+</head>
+
+
+
+<body>
+  <div id="container_index">
+    <div id="info_02">
+      <div class="left">
+        <br>
+        <h1 style="margin: 0;">受付事務支援システム</h1>
+        <a style="color: yellow;">最終目的は月計表の完成です。ていねいに日々の作業を</a><br>
+        <a style="color: red;">（株）ワールド情報システムの『接骨院システム』は、この受付事務支援システムとは一切関係ありませんので、戦法に質問などをしないようにして下さい。</a>
+      </div>
+      <div class="middle">
+        <div>
+          <div class="botton">
+            終了する(Ｑ)
+
+          </div>
+        </div>
+      </div>
+      <div class="right" style="font-size: larger; font: bold; text-align: center;">
+        <div>
+          <div class="status_01">
+            <div>●午前発行：</div>
+            <div>０枚</div>
+          </div>
+
+          <div class="status_01">
+            <div>●午後発行:</div>
+            <div>０枚</div>
+          </div>
+
+          <div class="status_01" style="color: white; background-color: green;">
+            <div>●準備リスト残：</div>
+            <div>０人</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="tbl">
+      <div class="blue">
+        <div>
+          <div>
+            <div class="h_blue">
+              設定
+            </div>
+            <div>
+              <div data-url="BL01.html">
+                鍼灸療養費
+              </div>
+            </div>
+            <div>
+              <div data-url="BL02.html">
+                担当マスタ
+              </div>
+            </div>
+            <div>
+              <div data-url="BL03.html">
+                データ移動
+              </div>
+            </div>
+            <div>
+              <div data-url="BL04.html">
+                プリンタの指定
+              </div>
+            </div>
+            <div>
+              <div data-url="BL05.html">
+                施術所情報
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="red">
+        <div>
+          <div>
+            <div class="h_red">
+              取り込み
+            </div>
+            <div>
+              <div data-url="RD01.html">
+                ＣＳＶから
+              </div>
+            </div>
+            <div>
+              <div data-url="RD02.html">
+                日報ﾃｷｽﾄから
+              </div>
+            </div>
+
+            <div>
+              <div data-url="RD03.html">
+                受信者番号指定
+              </div>
+            </div>
+            <div class="dummy">
+              <div>ダミー</div>
+            </div>
+            <div class="dummy">
+              <div>ダミー</div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="green">
+        <div>
+          <div>
+            <div class="h_green">
+              発行準備
+            </div>
+            <div>
+              <div data-url="GR01.html">
+                発行準備リスト
+              </div>
+            </div>
+            <div>
+              <div data-url="GR02.html">
+                担当・負担条件
+              </div>
+            </div>
+            <div>
+              <div data-url="GR03.html">
+                保険証忘れ
+              </div>
+            </div>
+            <div>
+              <div data-url="GR04.html">
+                受信者番号なし
+              </div>
+            </div>
+            <div>
+              <div data-url="GR05.html">
+                支払証明書
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="brown">
+        <div>
+          <div>
+            <div class="h_brown">
+
+              デフォルト
+
+            </div>
+            <div>
+              <div data-url="BR01.html">
+                担当・負担条件
+              </div>
+            </div>
+            <div>
+              <div data-url="BR02.html">
+                ＣＳＶから
+              </div>
+            </div>
+            <div class="dummy">
+              <div>ダミー</div>
+            </div>
+            <div class="dummy">
+              <div>ダミー</div>
+            </div>
+            <div class="dummy">
+              <div>ダミー</div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="purple">
+        <div>
+          <div>
+            <div class="h_purple">
+              発行済み
+            </div>
+            <div>
+              <div data-url="PR01.html">
+                領収書の検索
+              </div>
+            </div>
+            <div>
+              <div data-url="PR02.html">
+                預り証の検索
+              </div>
+            </div>
+            <div>
+              <div data-url="PR03.html">
+                科目名未定分
+              </div>
+            </div>
+            <div>
+              <div data-url="PR04.html">
+                ＣＳＶから
+              </div>
+            </div>
+            <div class="dummy">
+              <div>ダミー</div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="yellow">
+        <div>
+          <div>
+            <div class="h_yellow">
+              締め
+            </div>
+            <div>
+              <div data-url="YL01.html">
+                締め状況
+              </div>
+            </div>
+            <div>
+              <div data-url="YL02.html">
+                日計表
+              </div>
+            </div>
+            <div>
+              <div data-url="YL03.html">
+                月計表･実績表
+              </div>
+            </div>
+            <div>
+              <div data-url="YL04.html">
+                バックアップ
+              </div>
+            </div>
+            <div>
+              <div data-url="YL05.html">
+                ロールバック
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <DIV id="info_01">
+      <DIV class="left" style="margin: 0;">●このシステムで一番最新の患者さん＝
+      </DIV>
+      <DIV class="right">
+        <p style="margin: 0;color: brown;">【26228番　山本　和美】</p>
+        <p style="margin: 0;color: red;">→次は26229番から登録してください。</p>
+
+      </DIV>
+
+      <DIV class="left" style="margin: 0;">●バックアップ時の最新の領収書＝<br>
+        <p style="margin: 0;">●現在の最新の領収書＝</p>
+      </DIV>
+      <DIV class="right" style="margin: 0;">
+        <p style="margin: 0; color: yellow;">【97582番　寺西　昭子】</p><br>
+        <p style="margin: 0; color: purple;">【97582番　寺西　昭子】</p>
+      </DIV>
+
+    </DIV>
+  </div>
+
+
+
+
+</body>
+
+</html>

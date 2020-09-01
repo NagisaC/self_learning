@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ja">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta charset=utf-8" />
+  <title>受付事務支援システム</title>
+
+  <!-- CSS -->
+  <link href="../CSS/common.css" rel="stylesheet">
+  <link href="../CSS/css_YL.css" rel="stylesheet">
+
+  <!-- javascript -->
+  <script src="http://code.jquery.com/jquery.min.js"></script>
+  <script src="../JS/common.js"></script>
+
+
+</head>
+
+<body id="container_YL02">
+
+  <!-- 上部、①、②、③、④ -->
+
+  <!-- 上部 -->
+
+
+  <h1>日計表印刷フォーム</h1>
+
+
+  <div id="to_menu">
+    <div>
+      <div data-url="index.html">メインメニュー（変更保存）(Ｓ)
+      </div>
+      <div class="botton">メインメニュー（変更破棄）(M)
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ① -->
+
+  <div class="one_flex_p">
+
+    <div class="one_wrapper">
+      <div class="one_title">１．印刷形態を選んでください。</div>
+
+      <div class="one_title_button_p">
+        <div>
+          <div class="button">受付日時の締め作業用</div>
+        </div>
+        <div>
+          <div class="button">期間と担当を指定</div>
+        </div>
+      </div>
+
+    </div>
+
+    <div>
+      <div>プレビューモードでプレビューを見たあとは、<br>右上の「×」ボタンを押して閉じてください。</div>
+    </div>
+
+
+  </div>
+
+
+
+  <!-- ②-->
+
+
+  <div class="two_wrapper">
+
+    <div class="two_title">２．時間帯を選択し日付を指定してください。、</div>
+
+    <div class="two_title_input_p">
+
+      <div class="two_title_input_c1">
+        <input type="checkbox" checked style="margin: 8px;">連日（受付確認用）</input>
+      </div>
+
+      <div class="two_title_input_c2">
+        <input type="checkbox" style="margin: 8px;">AM</input>
+      </div>
+
+      <div class="two_title_input_c3">
+        <input type="checkbox" style="margin: 8px;">連日（先生確認用）</input>
+      </div>
+
+      <div class="two_title_input_c4">
+        <input type="checkbox" style="margin: 8px;">PM</input>
+      </div>
+
+    </div>
+
+
+    <div class="day">日付</div>
+
+    <div><input value="８月 23日（日）"></input></div>
+
+
+  </div>
+
+  <!-- -③-->
+  <div>
+    <div class="three_wrapper">
+
+
+      <div class="button">日計表印刷</div>
+      <div class="button">日計表プレビュー</div>
+      <div class="img">
+        <img src="../img/inkjet.png">
+      </div>
+
+
+    </div>
+    <div class="button" style="margin: 25px 35px;">日計表PDF出力</div>
+  </div>
+
+  <!--  ④-->
+
+
+  <div class="four_div">「連日（先生確認用）」は患者さんが全員帰ってから印刷してください。<br>患者さんからクレームが出ますので、注意してください。<br>過去にそのような苦情の手紙が匿名で届いています。
+  </div>
+
+
+
+
+
+
+
+</body>
+
+</html>

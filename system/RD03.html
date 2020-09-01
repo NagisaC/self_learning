@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="ja">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta charset=utf-8" />
+  <title>受付事務支援システム</title>
+
+  <!-- CSS -->
+  <link href="../CSS/common.css" rel="stylesheet">
+  <link href="../CSS/css_RD.css" rel="stylesheet">
+
+
+  <!-- javascript -->
+  <script src="http://code.jquery.com/jquery.min.js"></script>
+  <script src="../JS/common.js"></script>
+
+
+</head>
+
+<body id="container_RD03">
+
+  <div>
+    <h1>領収書発行準備リストへの追加</h1>
+    <div id="to_menu">
+      <div>
+        <div data-url="index.html">メインメニュー（変更保存）(Ｓ)
+        </div>
+        <div data-url="index.html">メインメニュー（変更破棄）(M)
+        </div>
+      </div>
+    </div>
+    <p>
+    </p>
+  </div>
+
+
+  <div>
+    <p style="margin: 0;"> 仕事途中で日付一括に追加登録した患者さんの番号を入力することで１名ずつ追加できます。
+    </p>
+    <p style="margin: 0;">ただし、接骨院システムへ新規番号で登録された患者さんの場合、日付一括に登録されていたても、領収書発行準備リストへ追加することができません。
+    </p>
+    <p style="margin: 0;">その場合はお手数ですが下の登録フォームから登録を行ってください。
+    </p>
+  </div>
+
+
+
+  <div class="RD_wrapper">
+
+    <div class="green01_01">
+
+      <div class="RD_title">受付事務支援システムに入っている受信者番号の場合</div>
+
+
+      <div class="RD01">
+
+        <div class="RD01_01">
+
+          <div>接骨院システムの番号→
+          </div>
+        </div>
+
+        <div class="green01_01_01">
+          <input value="22345">
+          </input>
+        </div>
+
+
+
+        <div class="green01_01_01">
+          <input value=林　悦代>
+          </input>
+        </div>
+
+        <div class="green01_01_01">
+          <div class="button">確認する
+          </div>
+        </div>
+
+      </div>
+
+      <div>
+        <p class="button01">追加・編集画面へ
+        </p>
+      </div>
+
+
+
+    </div>
+
+    <div class="green01_02">
+
+      <div class="RD_title">受付事務支援システムに入っていない受信者番号の場合
+      </div>
+
+      <div class=" RD02_P_P_P">
+        <div class="RD02_P_P">
+          <div class="RD02_P">
+            <div class="RD02">
+
+              <div>
+                <p>●受診者番号
+                </p>
+              </div>
+
+              <div style="margin: 0 auto;">
+                <input value=26229>
+                </input>
+              </div>
+
+            </div>
+
+            <div class="RD02">
+
+              <div>
+                <p>●受診者氏名
+                </p>
+              </div>
+
+              <div style="margin: 0 auto;">
+                <input>
+                </input>
+              </div>
+
+              <!--               <div>
+                <div>姓と名の間にはスペースを入れてください。
+                </div>
+              </div> -->
+
+            </div>
+            <div>
+              <div>姓と名の間にはスペースを入れてください。
+              </div>
+            </div>
+
+            <div class="RD02">
+
+              <div>
+                <p>●保険者番号
+                </p>
+              </div>
+
+              <div style="margin: 0 auto;">
+                <input>
+                </input>
+              </div>
+
+              <div>
+                <p>保険者番号が０で始まる場合でも、０を省略しないでください。
+                </p>
+              </div>
+
+            </div>
+
+
+
+
+
+
+            <div>
+              <p>生活保護(111)･自賠責(222)･労災(333)･自責(444)の場合は、 <br>
+                保険者番号のところへ３ケタの数字を入れてEnterキーを押してください。
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="RD02_P_P">
+          <div class="RD02_P">
+
+            <div class="RD02">
+              <div>
+                <p>●負担者番号
+                </p>
+              </div>
+
+              <div style="margin: 0 auto;">
+                <input value=0>
+                </input>
+              </div>
+
+
+            </div>
+
+            <div>
+              <p>公費負担がない場合は、負担者番号は0のままにしておいてください。
+              </p>
+            </div>
+
+            <div class="RD02">
+              <div>
+                <p>●負担割合
+                </p>
+              </div>
+
+              <div style="margin: 0 0 0 111px;">
+                <input type="radio" name="burden" value="1">１割
+                <input type="radio" name="burden" value="2">２割
+                <input type="radio" name="burden" value="3" checked>３割
+              </div>
+
+            </div>
+
+            <div class="RD02">
+              <div>
+                <p>●続柄
+                </p>
+              </div>
+
+              <div style="margin: 0 0 0 143px;">
+                <input type="radio" name="belong" value="本人" checked>本人
+                <input type="radio" name="belong" value="本人以外">本人以外
+
+              </div>
+
+            </div>
+
+            <div class="RD02">
+              <div>
+                <p>●生年月日
+                </p>
+              </div>
+
+              <div style="margin: 0 auto;">
+                <input value=昭和10年10月10日>
+                </input>
+              </div>
+
+            </div>
+
+            <div class="RD02">
+              <div>
+                <p>年号選択
+                </p>
+              </div>
+
+              <div style="margin: 0 0 0 128px;">
+                <input type="radio" name="era" value="Ｍ">Ｍ
+                <input type="radio" name="era" value="Ｉ">Ｉ
+                <input type="radio" name="era" value="Ｓ" checked>Ｓ
+                <input type="radio" name="era" value="Ｈ">Ｈ
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+
+
+
+
+
+  <!-- 下段 -->
+  <div>
+    <div>
+      <p>
+      </p>
+    </div>
+    <div>
+      <div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+
+
+
+
+
+
+</body>
+
+</html>

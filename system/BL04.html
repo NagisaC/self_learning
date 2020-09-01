@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ja">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta charset=utf-8" />
+  <title>受付事務支援システム</title>
+
+  <!-- CSS -->
+  <link href="../CSS/common.css" rel="stylesheet">
+  <link href="../CSS/css_BL.css" rel="stylesheet">
+
+  <!-- javascript -->
+  <script src="http://code.jquery.com/jquery.min.js"></script>
+  <script src="../JS/common.js"></script>
+
+
+</head>
+
+<body id="container_BL04">
+
+  <h1>プリンタの指定</h1>
+
+
+  <div id="to_menu">
+    <div>
+      <div data-url="index.html">メインメニュー（変更保存）(Ｓ)
+      </div>
+      <div class="botton">メインメニュー（変更破棄）(M)
+      </div>
+    </div>
+  </div>
+
+  <div class="p_wrapper">
+    <p>●インクジェットプリンタ（日計表など）</p>
+    <div class="select-wrapper">
+      <div>
+        <select>
+          <option>printer 1</option>
+          <option>printer 2</option>
+          <option>printer 3</option>
+          <option>printer 4</option>
+          <option>printer 5</option>
+
+        </select>
+      </div>
+      <div>
+        <img src="../img/inkjet.png">
+      </div>
+    </div>
+  </div>
+
+  <div class="p_wrapper">
+    <p>●レーザプリンタ（領収書･預り証など）</p>
+    <div class="select-wrapper">
+      <div>
+        <select>
+          <option>printer 1</option>
+          <option>printer 2</option>
+          <option>printer 3</option>
+          <option>printer 4</option>
+          <option>printer 5</option>
+        </select>
+      </div>
+      <div>
+        <img src="../img/laser.png">
+      </div>
+    </div>
+  </div>
+
+  <div class="p_wrapper">
+    <p>●PDF出力（メール添付する日計表など）</p>
+    <div class="select-wrapper">
+      <div>
+        <select>
+          <option>printer 1</option>
+          <option>printer 2</option>
+          <option>printer 3</option>
+          <option>printer 4</option>
+          <option>printer 5</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+
+
+</body>
+
+
+<style>
+  @media screen and (min-width: 800px) {
+    .select-wrapper {
+      flex-wrap: wrap;
+    }
+
+    .select-wrapper>div:nth-of-type(1) {
+      flex-basis: 60%
+    }
+
+    .select-wrapper>div:nth-of-type(2) {
+      flex-basis: 40%
+    }
+
+    #container_BL04 select {
+      width: 80%;
+    }
+
+
+
+
+  }
+
+  @media screen and (max-width: 800px) {
+    .select-wrapper {
+      flex-wrap: wrap;
+    }
+
+
+    .select-wrapper>div {
+      flex-basis: 100%;
+    }
+
+    #container_BL04 select {
+      width: 100%;
+    }
+
+
+  }
+
+  .select-wrapper {
+    display: flex;
+  }
+</style>
+
+
+
+
+
+
+
+</html>

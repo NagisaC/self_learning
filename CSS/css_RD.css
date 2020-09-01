@@ -1,0 +1,122 @@
+/* RD03 */
+
+.green01_01, .green01_02 {
+  border: 1px solid red;
+  margin: 10px 0;
+}
+
+.RD_title {
+  background-color: red;
+  color: white;
+  margin: 19x;
+  padding: 8px;
+  text-align: center;
+}
+
+.RD01{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.RD01_01 {
+  flex-basis: 25%;
+  margin: 6px;
+  text-align: right;
+}
+
+.RD01_01>div {
+  flex-basis: 25%;
+  text-align: right;
+  margin: 14px;
+}
+
+.button {
+  box-shadow: inset 0px 1px 0px 0px #ffffff;
+  background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+  background-color: #ffffff;
+  border: 1px solid black;
+  /* display: inline-block; */
+  /* cursor: pointer; */
+  color: #666666;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  /* padding: 6px 24px; */
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffffff;
+  padding: 5px;
+  text-align: center;
+  /*   margin: 5px auto; */
+  PADDING: 6PX 24PX;
+  cursor: pointer;
+
+  margin: 16px;
+
+}
+
+.button01 {
+  box-shadow: inset 0px 1px 0px 0px #ffffff;
+  background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+  background-color: #ffffff;
+  border: 1px solid black;
+  /* display: inline-block; */
+  /* cursor: pointer; */
+  color: #666666;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  /* padding: 6px 24px; */
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffffff;
+  padding: 5px;
+  text-align: center;
+  /*   margin: 5px auto; */
+  PADDING: 6PX 24PX;
+  cursor: pointer;
+
+  margin: 5px auto;
+  width: 20%;
+  margin-bottom: 15px;
+}
+
+
+
+/* 緑１部分 */
+
+.RD02 {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+/* .RD02>div {
+  flex-basis: 50%;
+} */
+
+.RD02>div :nth-of-type(1){
+  flex-basis: 45%;
+}
+
+
+.RD02>div :nth-of-type(2){
+  flex-basis: 55%;
+}
+
+
+
+
+
+.RD02_P_P_P {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.RD02_P_P {
+  flex-basis :45%;
+  margin: 10px;
+}
+
+
+
+

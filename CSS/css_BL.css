@@ -1,0 +1,59 @@
+/* BL04 */
+
+@media screen and (min-width: 800px) {
+  .select-wrapper>div:nth-of-type(1) {
+    flex-basis: 60%
+  }
+  .select-wrapper>div:nth-of-type(2) {
+    flex-basis: 40%
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .select-wrapper>div {
+    flex-basis: 100%;
+  }
+}
+
+.select-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 800px;
+}
+
+/* BL05 */
+
+@media screen and (min-width: 800px) {
+  .treatment>div:nth-of-type(1) {
+    flex-basis: 30%
+  }
+  .treatment>div:nth-of-type(2) {
+    flex-basis: 70%
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .treatment>div {
+    flex-basis: 100%;
+  }
+}
+
+.treatment {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 800px;
+}
+
+input {
+  width: 100%;
+}
+
+#container_BL05 .treatment p {
+  margin: 0;
+}
+
+#container_BL05 #to_menu {
+  margin-bottom: 40px;
+}

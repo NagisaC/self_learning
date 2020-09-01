@@ -1,0 +1,56 @@
+#test {
+  display: flex;
+  padding: 20px;
+}
+
+#test div {
+  padding: 2px 6px;
+}
+
+.class_1 {
+  color: brown;
+  font-weight: 800;
+}
+
+.class_2 {
+  color: rgb(50, 241, 50);
+  font-weight: 800;
+}
+
+.clazz_2 {
+  color: yellowgreen;
+  font-style: italic;
+}
+
+[class^="class_"] {
+  background-color: cornsilk;
+}
+
+[class$="_2"] {
+  text-decoration: underline;
+}
+
+#i_am_a_cat, .you_are_a_cat {
+  color: blueviolet;
+  font-weight: 900;
+}
+
+/* #i_am_a_cat, #i_am_a_racoon {
+  font-size: 200%;
+}
+ */
+
+[id^="i_am_a_"] {
+  font-size: 200%;
+}
+
+[id*="_am_a_"] {
+  font-size: 200%;
+}
+
+.special #i_am_a_cat {}
+
+[class*="special"] [id^="i_am_a_"] {
+  text-align: right;
+  color: deeppink;
+}

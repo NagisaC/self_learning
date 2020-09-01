@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ja">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta charset=utf-8" />
+  <title>受付事務支援システム</title>
+
+  <!-- CSS -->
+  <link href="../CSS/common.css" rel="stylesheet">
+  <link href="../CSS/css_BR.css" rel="stylesheet">
+
+  <!-- javascript -->
+  <script src="http://code.jquery.com/jquery.min.js"></script>
+  <script src="../JS/common.js"></script>
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+</head>
+
+<body id="container_BR01">
+
+  <h1><span>担当</span><span>アサインメント</span><span>表</span><span>（デフォルト）</span></h1>
+
+
+  <div id="to_menu">
+    <div>
+      <div data-url="index.html">メインメニュー（変更保存）(Ｓ)
+      </div>
+      <div class="botton">メインメニュー（変更破棄）(M)
+      </div>
+    </div>
+  </div>
+
+
+
+  <div id="sc">
+
+    <div>
+      <div>
+        <div>受診者番号⇒</div>
+        <div><input></input></div>
+      </div>
+
+      <div>
+        <div class="button">へ飛ぶ</div>
+        <div class="button">すべて表示</div>
+      </div>
+
+      <div>
+        <div>担当者絞り込み</div>
+        <div class="assigned"><select>
+            <option value="">不定</option>
+            <option value="">チ</option>
+            <option value="">シ</option>
+            <option value="">ホ</option>
+            <option value="">ア</option>
+            <option value="">ニ</option>
+            <option value="">ヒ</option>
+            <option value="">ヤ</option>
+          </select></div>
+      </div>
+
+    </div>
+  </div>
+
+  </div>
+
+  <div class="description">
+    <p><ul><li>生活保護、自賠責、労災、自費の患者さんは負担割合、負担者番号の入力は必要ありません（できないようになっています）。</li></ul></p>
+    <p><ul><li>受診者氏名、負担割合を変更することが可能ですが、SCV・日報・月報取り込みを行うとその情報に同期化されます。</li></ul></p>
+
+
+  </div>
+
+  <table>
+    <tr>
+      <th>
+        <div>
+          <div class="p_no">受診者番号</div>
+          <div class="p_name">受診者氏名</div>
+          <div class="assigned">担当名</div>
+          <div class="share">負担割合</div>
+          <div class="insurerno">本体保険者番号</div>
+          <div class="futanshano">負担者番号</div>
+        </div>
+      </th>
+    </tr>
+    <tr>
+      <td>
+        <div>
+          <div class="p_no">26228</div>
+          <div class="p_name"><input type="text" value="山本　和美"> </div>
+          <div class="assigned"><select>
+              <option value="">不定</option>
+              <option value="">チ</option>
+              <option value="">シ</option>
+              <option value="">ホ</option>
+              <option value="">ア</option>
+              <option value="">ニ</option>
+              <option value="">ヒ</option>
+              <option value="">ヤ</option>
+            </select></div>
+          <div class="share"><input type="checkbox" checked>1割<input type="checkbox">2割<input type="checkbox">3割
+          </div>
+          <div class="insurerno"><input type="text" value="274068"></div>
+          <div class="futanshano"><input type="text" value="0"></div>
+        </div>
+      </td>
+    </tr>
+  </table>
+
+</body>
+
+<style>
+ 
+
+
+
+
+ @media screen and (min-width: 800px) {
+
+  td>div>div {
+   margin: 0;
+ }
+
+  }
+
+  @media screen and (max-width: 800px) {
+
+    td>div>div {
+   margin: 5px 0;
+ }
+
+}
+
+
+</style>>
+
+
+
+</html>

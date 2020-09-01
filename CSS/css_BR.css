@@ -1,0 +1,181 @@
+/* RDリンク先 */
+
+table {
+	max-width: 1200px;
+}
+
+.futanshano>input {
+	background-color: black;
+	color: white;
+	width: 100px;
+	text-align: right;
+	;
+}
+
+.p_name>input, .insurerno>input, .assigned>select {
+	background-color: rgb(250, 200, 107);
+}
+
+.p_name>input {
+	width: 120px;
+}
+
+.insurerno>input {
+	width: 100px;
+	text-align: right;
+	;
+}
+
+th>div, td>div {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+table>th>div>div {
+	text-align: center;
+}
+
+@media screen and (max-width:800px) {
+	.p_no {
+		flex-basis: 20%;
+	}
+	.p_name {
+		flex-basis: 80%;
+	}
+	.assigned {
+		flex-basis: 100%;
+	}
+	.share {
+		flex-basis: 100%;
+	}
+	.insurerno {
+		flex-basis: 100%;
+	}
+	.futanshano {
+		flex-basis: 100%;
+	}
+	table {
+		width: 90%;
+	}
+	#sc>div>div {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	#sc>div>div>div {
+		flex-basis: 100%;
+	}
+	#sc>div {
+		display: flex;
+		flex-wrap: wrap;
+		/* 		width: 700px; */
+		width: 90%;
+	}
+	#sc>div>div {
+		flex-basis: 100%;
+	}
+	#sc>div>div {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	#sc>div>div>div {
+		flex-basis: 40%;
+	}
+}
+
+@media screen and (min-width:800px) {
+	.p_no {
+		flex-basis: 12%;
+	}
+	.p_name {
+		flex-basis: 20%;
+	}
+	.assigned {
+		flex-basis: 8%;
+	}
+	.share {
+		flex-basis: 20%;
+	}
+	.insurerno {
+		flex-basis: 20%;
+	}
+	.futanshano {
+		flex-basis: 20%;
+	}
+	table {
+		width: 80%;
+		width: 100%;
+	}
+	#sc>div>div {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	#sc>div>div>div {
+		flex-basis: 100%;
+	}
+	#sc>div {
+		display: flex;
+		flex-wrap: wrap;
+		width: 700px;
+	}
+	#sc>div>div {
+		flex-basis: 50%;
+	}
+	#sc>div>div {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	#sc>div>div>div {
+		flex-basis: 40%;
+	}
+}
+table, tr, td, th {
+	border: 1px solid #000000;
+}
+
+#sc>div>div>div {
+	margin: auto 0;
+}
+
+/*   @media screen and (max-width:1200px) {
+    table {
+      width: 800px;
+    }
+  }
+
+  @media screen and (min-width:1200px) {
+    table {
+             min-width: 1200px; 
+  }
+  }
+
+  */
+
+th>div, td>div {
+	margin: 10px 0;
+}
+
+table>tbody>tr>th {
+	background-color: brown;
+	color: white;
+}
+
+#container_BR01 #sc .button {
+	box-shadow: inset 0px 1px 0px 0px #ffffff;
+	background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	background-color: #ffffff;
+	border: 1px solid black;
+	/* display: inline-block; */
+	/* cursor: pointer; */
+	color: #666666;
+	font-family: Arial;
+	font-size: 15px;
+	font-weight: bold;
+	/* padding: 6px 24px; */
+	text-decoration: none;
+	text-shadow: 0px 1px 0px #ffffff;
+	text-align: center;
+	margin: 5px;
+	PADDING: 6PX 0;
+	cursor: pointer;
+	width: 60px;
+}
